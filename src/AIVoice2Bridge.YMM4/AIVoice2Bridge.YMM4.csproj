@@ -9,6 +9,7 @@
     <Version>0.1.0</Version>
     <Description>A.I.VOICE2 original editor DLL bridge voice plugin for YMM4</Description>
     <Deterministic>true</Deterministic>
+    <PathMap Condition="'$(Configuration)' == 'Release'">$(MSBuildProjectDirectory)=/_/AIVoice2Bridge.YMM4</PathMap>
     <Ymm4Directory Condition="'$(Ymm4Directory)' == ''">$(YMM4_PATH)</Ymm4Directory>
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>

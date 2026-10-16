@@ -1,5 +1,8 @@
 # A.I.VOICE2 Bridge — YMM4 语音插件
 
+普通用户直接下载 [v0.1.0 预览版 .ymme / ZIP](https://github.com/CyanYuzu/AIVoice2-Bridge-YMM4-plugin/releases/tag/v0.1.0)，无需编译。
+请先安装 Editor DLL 桥，再按 [完整安装与使用说明](docs/INSTALLATION.md) 操作。
+
 在 YMM4 的引擎列表中加入 **A.I.VOICE2 Bridge**，通过本机已安装的二代 Editor API DLL
 使用正版声库。接入方式遵循本机 YMM4 自带一代 A.I.VOICE 的语音插件接口：声库枚举、
 角色语音参数、`IVoiceSpeaker.CreateVoiceAsync`、WAV 缓存和设置页。
@@ -12,8 +15,8 @@
 1. 确认原版 A.I.VOICE2 Editor 根目录已安装协议 2 的 [AIVoice2 Bridge](https://github.com/CyanYuzu/AIVoice2-Bridge) `window_size_plugin.dll` 桥，
    并保留它依赖的原插件备份 `aivoice2_window_size_original.dll`。本插件不替换 Editor 的任何文件。
 2. 正常打开原版 Editor，等待声库与授权完成加载。
-3. 双击 `dist/AIVoice2Bridge.YMM4-0.1.0.ymme`，由 YMM4 安装；也可关闭 YMM4 后手动将
-   `dist/package/AIVoice2Bridge.YMM4.dll` 放到
+3. 从 Release 下载并双击 `AIVoice2Bridge.YMM4-0.1.0.ymme`，由 YMM4 安装；也可关闭 YMM4 后手动将
+   ZIP 中的 `AIVoice2Bridge.YMM4.dll` 放到
    `YMM4\user\plugin\AIVoice2Bridge\AIVoice2Bridge.YMM4.dll`。
    也可执行 `scripts/install.ps1 -Ymm4Directory 'C:\Apps\YukkuriMovieMaker_v4'` 完成相同的文件复制。
 4. 重启 YMM4，在“设置 → 语音 → A.I.VOICE2 Bridge”中检查连接并更新声库。

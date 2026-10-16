@@ -1,9 +1,9 @@
 {
   "batch": {
     "count": 8,
-    "wall_seconds": 6.2047026,
+    "wall_seconds": 7.078856,
     "audio_seconds": 33.82933333333333,
-    "real_time_factor": 0.18341190879709918
+    "real_time_factor": 0.20925201008986286
   },
   "schema_version": 1,
   "gui_timeline_synthesis_tested": false,
@@ -14,236 +14,236 @@
   "bridge_protocol": 2,
   "checks": [
     {
-      "passed": true,
-      "name": "original Editor protocol 2 ready"
+      "name": "original Editor protocol 2 ready",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "SDK settings isolated inside workspace"
+      "name": "SDK settings isolated inside workspace",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "native YMM4 IVoicePlugin contract"
+      "name": "native YMM4 IVoicePlugin contract",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "eight licensed voices enumerated"
+      "name": "eight licensed voices enumerated",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "voice IDs stable and unique"
+      "name": "voice IDs stable and unique",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "baseline.wav real SDK synthesis WAV"
+      "name": "baseline.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "repeat-without-extension real SDK synthesis WAV"
+      "name": "repeat-without-extension real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "YMM4 extensionless output supported and deterministic"
+      "name": "YMM4 extensionless output supported and deterministic",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "TsunoseKotone_ns_48.wav real SDK synthesis WAV"
+      "name": "TsunoseKotone_ns_48.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "MeikaHime_ns_48.wav real SDK synthesis WAV"
+      "name": "MeikaHime_ns_48.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "MeikaMikoto_ns_48.wav real SDK synthesis WAV"
+      "name": "MeikaMikoto_ns_48.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "KotonohaAoi_ns_48.wav real SDK synthesis WAV"
+      "name": "KotonohaAoi_ns_48.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "KotonohaAkane_ns_48.wav real SDK synthesis WAV"
+      "name": "KotonohaAkane_ns_48.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "KizunaAkari_ns_48.wav real SDK synthesis WAV"
+      "name": "KizunaAkari_ns_48.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "OtomachiUna_ns_48.wav real SDK synthesis WAV"
+      "name": "OtomachiUna_ns_48.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "faster.wav real SDK synthesis WAV"
+      "name": "faster.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "percentage speed mapped to native rate"
+      "name": "percentage speed mapped to native rate",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "pitch.wav real SDK synthesis WAV"
+      "name": "pitch.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "pitch control changes waveform"
+      "name": "pitch control changes waveform",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "emphasis.wav real SDK synthesis WAV"
+      "name": "emphasis.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "emphasis control changes waveform"
+      "name": "emphasis control changes waveform",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "volume.wav real SDK synthesis WAV"
+      "name": "volume.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "engine volume changes waveform"
+      "name": "engine volume changes waveform",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "style-mix.wav real SDK synthesis WAV"
+      "name": "style-mix.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "multiple native styles change waveform"
+      "name": "multiple native styles change waveform",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "SDK project parameter clone retains nested style"
+      "name": "SDK project parameter clone retains nested style",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "nested style changes propagate undo events"
+      "name": "nested style changes propagate undo events",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "voice switching retains common style and clears unsupported style"
+      "name": "voice switching retains common style and clears unsupported style",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "reset.wav real SDK synthesis WAV"
+      "name": "reset.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "parameters reset between jobs"
+      "name": "parameters reset between jobs",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "kansai.wav real SDK synthesis WAV"
+      "name": "kansai.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "YMM4 SDK constrains speed to declared range"
+      "name": "YMM4 SDK constrains speed to declared range",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "invalid style sum rejected"
+      "name": "invalid style sum rejected",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "native error surfaced"
+      "name": "native error surfaced",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "after-native-error.wav real SDK synthesis WAV"
+      "name": "after-native-error.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "native engine recovers for next YMM4 call"
+      "name": "native engine recovers for next YMM4 call",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "existing output preserved"
+      "name": "existing output preserved",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "scoped cancellation"
+      "name": "scoped cancellation",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "timeout task confirmed stopped"
+      "name": "timeout task confirmed stopped",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "cancellation cleans partial files"
+      "name": "cancellation cleans partial files",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-0.wav real SDK synthesis WAV"
+      "name": "batch-0.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-1.wav real SDK synthesis WAV"
+      "name": "batch-1.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-2.wav real SDK synthesis WAV"
+      "name": "batch-2.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-3.wav real SDK synthesis WAV"
+      "name": "batch-3.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-4.wav real SDK synthesis WAV"
+      "name": "batch-4.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-5.wav real SDK synthesis WAV"
+      "name": "batch-5.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-6.wav real SDK synthesis WAV"
+      "name": "batch-6.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "batch-7.wav real SDK synthesis WAV"
+      "name": "batch-7.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "concurrent SDK calls serialize deterministically"
+      "name": "concurrent SDK calls serialize deterministically",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "all successful plugin scratch outputs committed"
+      "name": "all successful plugin scratch outputs committed",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "after-recover.wav real SDK synthesis WAV"
+      "name": "after-recover.wav real SDK synthesis WAV",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "explicit recovery preserves waveform"
+      "name": "explicit recovery preserves waveform",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "missing Editor actionable error"
+      "name": "missing Editor actionable error",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "incompatible protocol refused"
+      "name": "incompatible protocol refused",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "WPF settings controls instantiate and render on STA"
+      "name": "WPF settings controls instantiate and render on STA",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "per-voice style condition shows supported key"
+      "name": "per-voice style condition shows supported key",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "per-voice style condition hides unavailable key"
+      "name": "per-voice style condition hides unavailable key",
+      "passed": true
     },
     {
-      "passed": true,
-      "name": "voice cache survives test-host process restart"
+      "name": "voice cache survives test-host process restart",
+      "passed": true
     }
   ],
   "platform": "Windows x64 / .NET10",

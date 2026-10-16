@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>PluginAcceptance</AssemblyName>
+    <Ymm4Directory Condition="'$(Ymm4Directory)' == ''">$(YMM4_PATH)</Ymm4Directory>
+    <OutputPath>../../build/acceptance/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/AIVoice2Bridge.YMM4/AIVoice2Bridge.YMM4.csproj" />
+    <Reference Include="YukkuriMovieMaker.Plugin" HintPath="$(Ymm4Directory)\YukkuriMovieMaker.Plugin.dll" />
+    <Reference Include="YukkuriMovieMaker.Controls" HintPath="$(Ymm4Directory)\YukkuriMovieMaker.Controls.dll" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(Ymm4Directory)\Newtonsoft.Json.dll" />
+  </ItemGroup>
+</Project>

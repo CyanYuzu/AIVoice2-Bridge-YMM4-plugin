@@ -1,0 +1,251 @@
+{
+  "batch": {
+    "count": 8,
+    "wall_seconds": 6.2047026,
+    "audio_seconds": 33.82933333333333,
+    "real_time_factor": 0.18341190879709918
+  },
+  "schema_version": 1,
+  "gui_timeline_synthesis_tested": false,
+  "gui_voice_selection_tested": false,
+  "editor_version": "2.13.0",
+  "real_ymm_plugin_loaded": true,
+  "raw_evidence_published": false,
+  "bridge_protocol": 2,
+  "checks": [
+    {
+      "passed": true,
+      "name": "original Editor protocol 2 ready"
+    },
+    {
+      "passed": true,
+      "name": "SDK settings isolated inside workspace"
+    },
+    {
+      "passed": true,
+      "name": "native YMM4 IVoicePlugin contract"
+    },
+    {
+      "passed": true,
+      "name": "eight licensed voices enumerated"
+    },
+    {
+      "passed": true,
+      "name": "voice IDs stable and unique"
+    },
+    {
+      "passed": true,
+      "name": "baseline.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "repeat-without-extension real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "YMM4 extensionless output supported and deterministic"
+    },
+    {
+      "passed": true,
+      "name": "TsunoseKotone_ns_48.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "MeikaHime_ns_48.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "MeikaMikoto_ns_48.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "KotonohaAoi_ns_48.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "KotonohaAkane_ns_48.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "KizunaAkari_ns_48.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "OtomachiUna_ns_48.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "faster.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "percentage speed mapped to native rate"
+    },
+    {
+      "passed": true,
+      "name": "pitch.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "pitch control changes waveform"
+    },
+    {
+      "passed": true,
+      "name": "emphasis.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "emphasis control changes waveform"
+    },
+    {
+      "passed": true,
+      "name": "volume.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "engine volume changes waveform"
+    },
+    {
+      "passed": true,
+      "name": "style-mix.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "multiple native styles change waveform"
+    },
+    {
+      "passed": true,
+      "name": "SDK project parameter clone retains nested style"
+    },
+    {
+      "passed": true,
+      "name": "nested style changes propagate undo events"
+    },
+    {
+      "passed": true,
+      "name": "voice switching retains common style and clears unsupported style"
+    },
+    {
+      "passed": true,
+      "name": "reset.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "parameters reset between jobs"
+    },
+    {
+      "passed": true,
+      "name": "kansai.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "YMM4 SDK constrains speed to declared range"
+    },
+    {
+      "passed": true,
+      "name": "invalid style sum rejected"
+    },
+    {
+      "passed": true,
+      "name": "native error surfaced"
+    },
+    {
+      "passed": true,
+      "name": "after-native-error.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "native engine recovers for next YMM4 call"
+    },
+    {
+      "passed": true,
+      "name": "existing output preserved"
+    },
+    {
+      "passed": true,
+      "name": "scoped cancellation"
+    },
+    {
+      "passed": true,
+      "name": "timeout task confirmed stopped"
+    },
+    {
+      "passed": true,
+      "name": "cancellation cleans partial files"
+    },
+    {
+      "passed": true,
+      "name": "batch-0.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "batch-1.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "batch-2.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "batch-3.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "batch-4.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "batch-5.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "batch-6.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "batch-7.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "concurrent SDK calls serialize deterministically"
+    },
+    {
+      "passed": true,
+      "name": "all successful plugin scratch outputs committed"
+    },
+    {
+      "passed": true,
+      "name": "after-recover.wav real SDK synthesis WAV"
+    },
+    {
+      "passed": true,
+      "name": "explicit recovery preserves waveform"
+    },
+    {
+      "passed": true,
+      "name": "missing Editor actionable error"
+    },
+    {
+      "passed": true,
+      "name": "incompatible protocol refused"
+    },
+    {
+      "passed": true,
+      "name": "WPF settings controls instantiate and render on STA"
+    },
+    {
+      "passed": true,
+      "name": "per-voice style condition shows supported key"
+    },
+    {
+      "passed": true,
+      "name": "per-voice style condition hides unavailable key"
+    },
+    {
+      "passed": true,
+      "name": "voice cache survives test-host process restart"
+    }
+  ],
+  "platform": "Windows x64 / .NET10",
+  "ymm_version": "4.56.1.1"
+}

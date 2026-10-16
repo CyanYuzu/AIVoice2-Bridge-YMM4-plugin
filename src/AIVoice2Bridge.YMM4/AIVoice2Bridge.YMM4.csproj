@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>AIVoice2Bridge.YMM4</AssemblyName>
+    <RootNamespace>AIVoice2Bridge.YMM4</RootNamespace>
+    <Version>0.1.0</Version>
+    <Description>A.I.VOICE2 original editor DLL bridge voice plugin for YMM4</Description>
+    <Deterministic>true</Deterministic>
+    <Ymm4Directory Condition="'$(Ymm4Directory)' == ''">$(YMM4_PATH)</Ymm4Directory>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="YukkuriMovieMaker.Plugin" HintPath="$(Ymm4Directory)\YukkuriMovieMaker.Plugin.dll" Private="false" />
+    <Reference Include="YukkuriMovieMaker.Controls" HintPath="$(Ymm4Directory)\YukkuriMovieMaker.Controls.dll" Private="false" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(Ymm4Directory)\Newtonsoft.Json.dll" Private="false" />
+  </ItemGroup>
+  <Target Name="CheckYmm4Sdk" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(Ymm4Directory)\YukkuriMovieMaker.Plugin.dll')" Text="Set Ymm4Directory to the installed YMM4 folder." />
+  </Target>
+</Project>
